@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap%27');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+  background-color: rgb(255, 210, 246);
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li{
+  list-style: none;
+  padding: 15px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(83, 51, 80);
+}
+
+#navbar li a:hover {
+  color: rgb(0, 90, 174);
+  transition: 0.5s;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 170%;
+  padding-top: 200px;
+}
+
+/* .img {
+  width: 250px;
+  height: 250px;
+} */
+
+body {
+  background-image: url(donutHomeBg.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.abt {
+  margin: 10px;
+  border: 2px;
+}
